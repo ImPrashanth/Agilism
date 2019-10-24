@@ -2,9 +2,9 @@
     <string name="app_name">Agilism</string>
     <string name="device_name">Device Name</string>
     <string name="city">City</string>
-    <string name="last_name">Last Name</string>
-    <string name="first_name">First Name</string>
-    <string name="email">Email</string>
+    <string name="last_name">Last Name*</string>
+    <string name="first_name">First Name*</string>
+    <string name="email">Email*</string>
     <string name="submit">Submit</string>
     <string name="cancel">Cancel</string>
     <string name="ok">OK</string>
