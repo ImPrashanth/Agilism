@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "755277826462",
+    "firebase_url": "https://agilism.firebaseio.com",
+    "project_id": "agilism",
+    "storage_bucket": "agilism.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755277826462:android:9bf54b32f67a6d297d6e8f",
+        "android_client_info": {
+          "package_name": "com.task.agilism"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755277826462-b6nfn6cg9njdihj9ubp4u17h6q3rkugn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.task.agilism",
+            "certificate_hash": "bb6d4babd53a4172f1a8fc58dee842de0b6200bd"
+          }
+        },
+        {
+          "client_id": "755277826462-c1cd210b65pavsn3cg33kp9v2lvj5uuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg4OoUUkz061LWF-AOIZY-IdhWS9ttOLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755277826462-c1cd210b65pavsn3cg33kp9v2lvj5uuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

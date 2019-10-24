@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Agilism</string>
+    <string name="device_name">Device Name</string>
+    <string name="city">City</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="email">Email</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="open_location_settings">Open Location Settings</string>
+    <string name="gps_network_not_enabled">Enable GPS Permission to Continue</string>
+    <string name="refresh_confirmation">Are You sure want to Refresh Your Location</string>
+    <string name="network_not_connected">Please Check Your Internet Connection. Enable Mobile Data or Wifi to Continue</string>
+    <string name="location_not_enabled">Please Allow Location Permission to Continue.</string>
+    <string name="alert">Alert</string>
+    <string name="permission_denied_contacts">Location Denied</string>
+    <string name="error_occur_fetching_location">Error Occured During fetching Location</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="register_success">You have been registered Successfully.</string>
+</resources>

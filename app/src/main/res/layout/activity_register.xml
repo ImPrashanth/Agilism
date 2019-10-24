@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="RegisterPresenter"
+            type="com.task.agilism.module.RegisterPresenter" />
+
+
+        <variable
+            name="RegisterView"
+            type="com.task.agilism.module.RegisterView" />
+
+    </data>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_corner"
+        >
+
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/activity_register_pull_refresh"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:id="@+id/activity_register_ll"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/activity_register_device_name_tv"
+                    android:text="@string/device_name"
+                    android:gravity="center"
+                    android:textSize="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_40"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/activity_register_city_tv"
+                    android:text="@string/city"
+                    android:gravity="center"
+                    android:textSize="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_70"
+                    />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/activity_register_first_name_et"
+                    android:hint="@string/first_name"
+                    android:textAlignment="center"
+                    android:padding="@dimen/dp_10"
+                    android:textSize="@dimen/dp_20"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:maxLength="15"
+                    android:background="@drawable/rounded_corner"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:layout_marginRight="@dimen/dp_30"
+                    android:layout_marginTop="@dimen/dp_40"
+                    />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/activity_register_last_name_et"
+                    android:hint="@string/last_name"
+                    android:textAlignment="center"
+                    android:padding="@dimen/dp_10"
+                    android:textSize="@dimen/dp_20"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:maxLength="15"
+                    android:background="@drawable/rounded_corner"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:layout_marginRight="@dimen/dp_30"
+                    android:layout_marginTop="@dimen/dp_40"
+                    />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/activity_register_email_et"
+                    android:hint="@string/email"
+                    android:textAlignment="center"
+                    android:padding="@dimen/dp_10"
+                    android:textSize="@dimen/dp_20"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:background="@drawable/rounded_corner"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:layout_marginRight="@dimen/dp_30"
+                    android:layout_marginTop="@dimen/dp_40"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/activity_register_submit_tv"
+                    android:textAlignment="center"
+                    android:padding="@dimen/dp_10"
+                    android:textSize="@dimen/dp_20"
+                    android:textColor="@color/white"
+                    android:text="@string/submit"
+                    android:background="@drawable/rounded_corner_blue"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:layout_marginRight="@dimen/dp_30"
+                    android:layout_marginTop="@dimen/dp_40"
+                    />
+
+                <!--android:onClick="@{()->RegisterView.onClickRegister()}"-->
+
+            </LinearLayout>
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>
