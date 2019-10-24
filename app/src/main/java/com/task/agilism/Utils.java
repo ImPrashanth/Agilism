@@ -61,12 +61,21 @@ public class Utils {
 
 
 
-    public static boolean isValidMailId(String textToCheck) {
-        /*String EMAIL_PATTERN = "^[_A-Za-z0-9-]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]" +
+    public static boolean isValidMailId(String email) {
+
+
+
+        String EMAIL_PATTERN = "^[_A-Za-z0-9-]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]" +
                 "+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
         Pattern pattern = Pattern.compile(EMAIL_PATTERN);
-        Matcher matcher = pattern.matcher(textToCheck);*/
-        return (!TextUtils.isEmpty(textToCheck) && Patterns.EMAIL_ADDRESS.matcher(textToCheck).matches());
+        Matcher matcher = pattern.matcher(email);
+
+        return !(email.length() == 0 || !matcher.matches());
+
+//        return (!TextUtils.isEmpty(textToCheck) && Patterns.EMAIL_ADDRESS.matcher(textToCheck).matches());
+
+
+
     }
 
 
